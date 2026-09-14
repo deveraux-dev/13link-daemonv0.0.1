@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Platform path resolvers — the SoT root only.
 //!
 //! SCOPE CUT from v2's `F:\NewRepo\crates\forge-daemon\src\platform.rs` (317

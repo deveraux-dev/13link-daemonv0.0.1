@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Real client for `sidecar`'s Gemma inference socket.
 //!
 //! `sidecar` (a separate excluded Cargo workspace — the CUDA/candle firewall

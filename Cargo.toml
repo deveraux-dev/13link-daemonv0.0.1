@@ -1,0 +1,46 @@
+[package]
+name = "link-core-daemon"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "forge_daemon_door"
+path = "src/lib.rs"
+
+[[bin]]
+name = "forgedaemon"
+path = "src/bin/forgedaemon.rs"
+
+[dependencies]
+link-core = { path = "F:/v3/crates/link-core" }
+bytemuck = { version = "1", features = ["derive"] }
+forge-ump-v3 = { path = "F:/v3/crates/forge-ump-v3" }
+forge-ml-bqrouter = { path = "F:/v3/crates/forge-ml-bqrouter" }
+forge-vix-syntax-v3 = { path = "F:/v3/crates/forge-vix-syntax-v3" }
+forge-vix-v3 = { path = "F:/v3/crates/forge-vix-v3" }
+forge-river-v3 = { path = "F:/v3/crates/forge-river-v3" }
+forge-vcs-v3 = { path = "F:/v3/crates/forge-vcs-v3" }
+forge-core-v3 = { path = "F:/v3/crates/forge-core-v3" }
+forge-hal-clockspine = { path = "F:/v3/crates/forge-hal-clockspine" }
+forge-foreman-v3 = { path = "F:/v3/crates/forge-foreman-v3" }
+forge-ast-v3 = { path = "F:/v3/crates/forge-ast-v3" }
+forge-vix-lsp-v3 = { path = "F:/v3/crates/forge-vix-lsp-v3" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+image = "0.25"
+ron = "0.8"
+k256 = "0.13"
+sha2 = "0.10"
+rand_core = { version = "0.6", features = ["getrandom"] }
+gemma-s13 = { path = "F:/v3/crates/gemma-s13" }
+zeroize = { version = "1.7", default-features = false, features = ["alloc"] }
+forge-ocular-v3 = { path = "F:/v3/crates/forge-ocular-v3" }
+forge-vision-v3 = { path = "F:/v3/crates/forge-vision-v3" }
+forge-cart-v3 = { path = "F:/v3/crates/forge-cart-v3" }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_System_Threading", "Win32_System_Diagnostics_ToolHelp", "Win32_System_ProcessStatus"] }
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_Graphics_Direct3D", "Win32_Graphics_Direct3D11", "Win32_Graphics_Dxgi", "Win32_Graphics_Dxgi_Common", "Win32_UI_WindowsAndMessaging"] }
+
+[build-dependencies]
+forge-vcs-v3 = { path = "F:/v3/crates/forge-vcs-v3" }

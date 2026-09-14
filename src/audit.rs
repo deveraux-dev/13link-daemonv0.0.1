@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Full semantic audit record — one per dispatched unit, appended to a
 //! caller-owned append-only log.
 //!

@@ -1,4 +1,6 @@
 [package]
+authors = ["Sean Morin"]
+license = "MIT"
 name = "link-core-daemon"
 version = "0.1.0"
 edition = "2021"

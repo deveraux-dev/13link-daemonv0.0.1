@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! ForgeWire — binary frame protocol on 127.0.0.1:13013 (WAVE-PROTO CHIP 1).
 //!
 //! Fixed 12-byte big-endian header + bounded payload, zero-copy on header parse.

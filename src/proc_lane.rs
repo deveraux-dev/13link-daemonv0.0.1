@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Process lifecycle as integer telemetry: one `NiprPackedWord` per watched exe.
 //! Publish is lock-free `AtomicU64`; readers never touch Win32 or allocate.
 //! The previously published word carries the history the classifier needs.

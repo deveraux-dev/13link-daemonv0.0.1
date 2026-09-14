@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Local Gemma 9B sidecar client for perceptual evaluation.
 //! Queries :13017 with structured prompts, parses RON responses deterministically.
 

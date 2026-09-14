@@ -1,4 +1,6 @@
-//! Embeds a `BrutalHash` of this daemon's GATED SOURCES — its own `src/*.rs`
+
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT//! Embeds a `BrutalHash` of this daemon's GATED SOURCES — its own `src/*.rs`
 //! plus `forge-foreman-v3/src/*.rs`, whose hook logic it links and executes —
 //! so `staleness.rs` can tell at run time whether the running daemon still
 //! matches the tree. Deterministic and order-sensitive: dirs in `GATED_DIRS`

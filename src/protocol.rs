@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Wire protocol messages — integer-only, hand-rolled codec (no serde).
 //!
 //! Every message can encode/decode to/from a simple key:value text format.

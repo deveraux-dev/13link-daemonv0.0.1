@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! CREE-RIVERBED codebook v0 — shop-state glyph wire vocabulary.
 //!
 //! Ported verbatim from `F:\NewRepo\crates\forge-daemon-types\src\codebook.rs`

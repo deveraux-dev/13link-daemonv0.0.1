@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! door — ForgeWire CLI client for daemon verbs (ported from xtask/src/daemon.rs).
 //! Direct interface to the 127.0.0.1:13013 control plane without xtask coupling.
 

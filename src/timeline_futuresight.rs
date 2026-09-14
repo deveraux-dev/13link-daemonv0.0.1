@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! timeline_futuresight.rs — the daemon's live Ghost. Runs `forge_ump_v3`'s futuresight
 //! over the recorder's tape (`timeline_recorder::snapshot`), so the ONE BIN — forge-ump
 //! tape → daemon futuresight → studio embed — sees collisions in projection before the

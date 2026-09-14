@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Semantic meaning scaffold — typed contracts for resolving ambiguous
 //! symbols into typed meanings before planning.
 //!

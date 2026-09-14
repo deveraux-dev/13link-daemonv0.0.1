@@ -1,4 +1,5 @@
-//! mma_nostr.rs — Merkle-Morin Architecture (MMA) Hardened NOSTR Engine.
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT//! mma_nostr.rs — Merkle-Morin Architecture (MMA) Hardened NOSTR Engine.
 //!
 //! Provides hardware-aligned, zero-trust cryptographic verification and execution
 //! of S13 balanced ternary weight matrices and state transitions over NOSTR.

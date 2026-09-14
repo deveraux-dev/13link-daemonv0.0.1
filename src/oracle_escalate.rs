@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Oracle escalation: when local Gemma fails or gives Ambiguous verdict,
 //! escalate to remote Gemini via `gemini-rest.cmd` (F:\v3\.forge\tools\).
 //! Caps from directives.ron honored; over-cap refusal typed and loud.

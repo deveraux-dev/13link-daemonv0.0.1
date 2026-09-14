@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! beacon_valve.rs — R3's outward valve: relays selected door channels to a
 //! Discord webhook as signed NIP-01 `NostrEvent` JSON. Default CLOSED
 //! (`FORGE_BEACON=1` to arm, `FORGE_BEACON_DOORS` to name which channels,

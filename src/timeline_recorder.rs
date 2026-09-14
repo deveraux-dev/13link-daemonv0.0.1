@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! timeline_recorder.rs — the daemon's LIVE provenance recorder. Every `audit_log`
 //! event seals a `(tick, moon, code_hash)` moment onto the time-machine tape (a
 //! process-global `forge_ump_v3::Recorder`), persisted atomically to `.forge/timeline.chain`.

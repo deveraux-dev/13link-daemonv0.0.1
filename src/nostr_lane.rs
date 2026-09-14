@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! nostr_lane.rs — the daemon's NOSTR spine (R2 of
 //! `.forge/DESIGN-BEACON-13DOORS-2026-08-16.md`, Sean's "go R2" 2026-08-16).
 //!

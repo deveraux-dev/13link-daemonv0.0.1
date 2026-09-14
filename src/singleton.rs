@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Singleton port-bind lock + stale-PID supersede logging.
 //!
 //! Ported from `F:\NewRepo\work\dream_diamonds\crates\forgedaemon.rs:706-850`

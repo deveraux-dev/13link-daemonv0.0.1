@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Standalone runner for link-core, kept OUTSIDE the F:\v3 workspace on
 //! purpose (Sean 2026-08-19: don't drag deployment bloat into v3) --
 //! depends on link-core by path, builds its own target dir here.

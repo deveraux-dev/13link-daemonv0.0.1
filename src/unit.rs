@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! A single decomposed unit of work produced by the planner.
 //!
 //! Ported from `F:\NewRepo\crates\forge-daemon-types\src\unit.rs` (2026-08-15).

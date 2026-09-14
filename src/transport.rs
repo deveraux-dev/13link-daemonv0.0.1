@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Blocking transport — implemented by whatever front-end delivers an
 //! [`Intent`] to the daemon (CLI, MCP stdio, the framed-TCP door itself).
 //!

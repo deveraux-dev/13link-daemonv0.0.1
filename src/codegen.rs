@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Two-lane door-verb doctrine (2026-08-22): Lane RON is a declarative spec
 //! (`src/verbs/*.ron` + the append-only `src/verbs/ORDER.tsv` ledger) that
 //! drives codegen instead of hand-written `wire.rs`/`protocol.rs`/`door.rs`

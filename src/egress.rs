@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Daemon exit-side egress — compresses a raw bailout/escalation context into a
 //! dense `ForgeHandoff` XML brief via the real Gemma sidecar (`crate::gemma_client`,
 //! TCP `INFER <query>` to `gemma-sidecar.exe`), the payload a foreman Claude session

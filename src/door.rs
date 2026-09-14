@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Whitelist-enforced accept/dispatch loop — the 5D safety gate.
 //!
 //! Only read-only verbs are whitelisted, with two exceptions: `write_vixi`

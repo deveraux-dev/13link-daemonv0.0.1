@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! A work request delivered to the daemon via any transport.
 //!
 //! Ported from `F:\NewRepo\crates\forge-daemon-types\src\intent.rs`

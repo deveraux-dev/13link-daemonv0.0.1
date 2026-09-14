@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! Canonical `VixelAtom`/`VixelDiff` layout — the unified 8-byte engine atom
 //! and its 18-byte transaction diff, for bit-deterministic IPC over loopback.
 //!

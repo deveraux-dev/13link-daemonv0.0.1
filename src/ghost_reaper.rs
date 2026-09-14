@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Sean Morin, Edmonton, Alberta.
+// SPDX-License-Identifier: MIT
 //! H-C: Ghost Reaper — centralized orphan reaping for session-bound MCP doors.
 //!
 //! H-A (`control_plane.rs`) observes and signals drift. H-C acts: it finds every
